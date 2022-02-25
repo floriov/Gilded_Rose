@@ -1,4 +1,4 @@
-Gilded rose tech test
+## Gilded rose tech test
 This is a well known kata developed by Terry Hughes. This is commonly used as a tech test to assess a candidate's ability to read, refactor and extend legacy code.
 
 Here is the text of the kata:
@@ -18,7 +18,12 @@ We have recently signed a supplier of conjured items. This requires an update to
 “Conjured” items degrade in Quality twice as fast as normal items
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn’t believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we’ll cover for you)."*
 
-The brief:
+## How to run this repo
+* Clone this repo: https://github.com/floriov/Gilded_Rose.git
+* run bundle install
+* run rspec to see passing tests and coverage 
+
+## The brief:
 Choose legacy code (translated by Emily Bache) in the language of your choice. The aim is to practice good design in the language of your choice. Refactor the code in such a way that adding the new "conjured" functionality is easy.
 
 You don't need to clone the repo if you don't want to. Feel free to copy the ruby code into a new folder and write your tests from scratch.
